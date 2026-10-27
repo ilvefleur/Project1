@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title> About Page </title>
 
-<link rel="stylesheet" href="ccs/style.css">
+<link rel="stylesheet" href="css/style.css">
 
 
 </head>
@@ -20,9 +20,9 @@
         </div>
         <nav>
             <ul>
-                <li> Home </li>
-                <li> About </li>
-                <li> Contact </li>
+               <li> <a href="index.html"> Home </a> </li>
+                <li> <a href="about.html"> About </a> </li>
+                <li> <a href="contact.html"> Contact </a> </li>
             </ul>
         </nav>
     </div>
@@ -30,7 +30,7 @@
 </header>
 <main> 
 
-<section>
+<section class="shadow">
 <h1>
     About This Project
 </h1>
@@ -66,8 +66,6 @@
             </p>
         </div>
     </div>
-
-
 </section>
 
 
@@ -76,46 +74,77 @@
 
 <section>
 <div class="flexContainer">
-    <div class="flexItem">
-        <h1>
-            Our Vision
-        </h1>
+    <div class="shadow flexItem">
+        <h3>
+            3
+        </h3>
+        <p>
+            pages
+        </p>
     </div>
+    <div class="shadow flexItem">
+        <h3>
+            10+
+        </h3>
+        <p>
+            Components
+        </p>
+    </div>
+    <div class="shadow flexItem">
+        <h3>
+            100%
+        </h3>
+        <p>
+            Flexbox
+        </p>
+    </div>
+
 </div>
-
-
-
-
-
-
-
-
-
-
 </section>
+
+
+
+
+
 
 
 <section>
-
-
-
-
-
-
+<div class="flexContainer">
+    <div class="shadow flexItem">
+        <p class="circleBlue">
+            &#x1F468;
+        </p>
+        <h3>
+            Student Name Developer
+        </h3>
+        <p>
+            Frontend Developer
+        </p>
+    </div>
+    <div class="shadow flexItem">
+        <p class="circleGreen">
+            &#x1F469;
+        </p>
+        <h3>
+            Student Name Designer
+        </h3>
+        <p>
+            UI/DX Designer
+        </p>
+    </div>
+    <div class="shadow flexItem">
+        <p class="circlePurple">
+            &#x1F468;
+        </p>
+        <h3>
+            Viviane Instructor
+        </h3>
+        <p>
+            Web Design Instructor 
+        </p>
+    </div>
+</div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -124,11 +153,10 @@
 </main>
 <footer>
 
-<p>© 2026 Student Portfolio. All rights reserved.</p>
- <ul>
+<p id="footerText">© 2026 Student Portfolio. All rights reserved.</p>
+ <ul id="footerNav">
                 <li> Jump Link 1 </li>
                 <li> Jump Link 2 </li>
-                <li> Jump Link 3 </li>
             </ul>
 
 </footer>
