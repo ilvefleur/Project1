@@ -171,3 +171,22 @@ ul.listCheckmark li:before{
     font-weight: bold;
     right: 25px;
 }
+
+
+
+button{
+    background-color:#1D4ED8;
+    border: none;
+    border-radius: 10px;
+    color:#FFFFFF;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#111827;
+    
+}
